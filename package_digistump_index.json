@@ -2,11 +2,11 @@
   "packages": [
     {
       "name": "digistump",
-      "maintainer": "Digistump,ArminJo",
-      "websiteURL": "https://github.com/ArminJo/DigistumpArduino",
-      "email": "armin.arduino@gmail.com",
+      "maintainer": "Digistump,kane-thornwyrd",
+      "websiteURL": "https://github.com/kane-thornwyrd/DigistumpArduino",
+      "email": "jean.cedric.t@gmail.com",
       "help": {
-        "online": "https://github.com/ArminJo/DigistumpArduino"
+        "online": "https://github.com/kane-thornwyrd/DigistumpArduino"
       },
       "platforms": [
         {
@@ -14,12 +14,12 @@
           "architecture": "avr",
           "version": "1.7.0",
           "category": "Digistump",
-          "url": "https://github.com/ArminJo/DigistumpArduino/raw/master/digistump-avr-1.7.0.zip",
+          "url": "https://github.com/kane-thornwyrd/DigistumpArduino/raw/master/digistump-avr-1.7.0.zip",
           "archiveFileName": "digistump-avr-1.7.0.zip",
           "checksum": "SHA-256:d2b6dd49589ec705c78bf8a030ef06673c9ca321b69a4e32bf1ef7b3c9cfe4a8",
           "size": "2288562",
           "help": {
-            "online": "https://github.com/digistump/DigistumpArduino/issues"
+            "online": "https://github.com/kane-thornwyrd/DigistumpArduino/issues"
           },
           "boards": [
             {
@@ -57,9 +57,9 @@
               "version": "7.3.0-atmel3.6.1-arduino5"
             },
             {
-              "packager": "digistump",
+              "packager": "ArminJo",
               "name": "micronucleus",
-              "version": "2.0a4"
+              "version": "2.5.1"
             }
           ]
         },
@@ -68,12 +68,12 @@
           "architecture": "avr",
           "version": "1.6.8",
           "category": "Digistump",
-          "url": "https://github.com/ArminJo/DigistumpArduino/raw/master/digistump-avr-1.6.8.zip",
+          "url": "https://github.com/kane-thornwyrd/DigistumpArduino/raw/master/digistump-avr-1.6.8.zip",
           "archiveFileName": "digistump-avr-1.6.8.zip",
           "checksum": "SHA-256:376e1716f3fba50b68d658228dd9593db049e76faf105b1ee003d483fe583f97",
           "size": "2167597",
           "help": {
-            "online": "https://github.com/digistump/DigistumpArduino/issues"
+            "online": "https://github.com/kane-thornwyrd/DigistumpArduino/issues"
           },
           "boards": [
             {
@@ -105,9 +105,9 @@
               "version": "7.3.0-atmel3.6.1-arduino5"
             },
             {
-              "packager": "digistump",
+              "packager": "ArminJo",
               "name": "micronucleus",
-              "version": "2.0a4"
+              "version": "2.5.1"
             }
           ]
         },
@@ -116,12 +116,12 @@
           "architecture": "avr",
           "version": "1.6.7",
           "category": "Digistump",
-          "url": "https://github.com/digistump/DigistumpArduino/releases/download/1.6.7/digistump-avr-1.6.7.zip",
+          "url": "https://github.com/kane-thornwyrd/DigistumpArduino/releases/download/1.6.7/digistump-avr-1.6.7.zip",
           "archiveFileName": "digistump-avr-1.6.7.zip",
           "checksum": "SHA-256:7F7E9F5AB982163F7A792C411326F0192A35B8A90890B7934F2F424A5426583D",
           "size": "2491070",
           "help": {
-            "online": "https://github.com/digistump/DigistumpArduino/issues"
+            "online": "https://github.com/kane-thornwyrd/DigistumpArduino/issues"
           },
           "boards": [
             {
@@ -153,9 +153,9 @@
               "version": "4.8.1-arduino5"
             },
             {
-              "packager": "digistump",
+              "packager": "ArminJo",
               "name": "micronucleus",
-              "version": "2.0a4"
+              "version": "2.5.1"
             }
           ]
         }
@@ -163,35 +163,14 @@
       "tools": [
         {
           "name": "micronucleus",
-          "version": "2.0a4",
+          "version": "2.5.1",
           "systems": [
             {
-              "host": "x86_64-apple-darwin",
-              "archiveFileName": "micronucleus-2.0a4-osx.tar.gz",
-              "url": "https://github.com/digistump/DigistumpArduino/releases/download/1.6.5a/micronucleus-2.0a4-osx.tar.gz",
-              "checksum": "SHA-256:B5EB0C7B251CD88F4816186BB931855834141E71A28D90FB9E46788E483AA421",
-              "size": "51203"
-            },
-            {
-              "host": "i686-mingw32",
-              "archiveFileName": "micronucleus-2.0a4-win.zip",
-              "url": "https://github.com/ArminJo/DigistumpArduino/raw/master/tools/micronucleus-2.0a4-win.zip",
-              "checksum": "SHA-256:BA9D4A327FCDEE92B72DDD353EF547FB071110E9EB7BE73F83A685CB76D3F939",
-              "size": "1711851"
-            },
-            {
-              "host": "i686-linux-gnu",
-              "archiveFileName": "micronucleus-2.0a4-linux32.tar.gz",
-              "url": "https://github.com/digistump/DigistumpArduino/releases/download/1.6.5a/micronucleus-2.0a4-linux32.tar.gz",
-              "checksum": "SHA-256:0D4286388EED28D1ECB29AFE81253F24F54D4F0A5C1B2C17507EABD504C595F8",
-              "size": "21909"
-            },
-            {
               "host": "x86_64-linux-gnu",
-              "archiveFileName": "micronucleus-2.0a4-linux64.tar.gz",
-              "url": "https://github.com/digistump/DigistumpArduino/releases/download/1.6.5a/micronucleus-2.0a4-linux64.tar.gz",
-              "checksum": "SHA-256:1F545C0BB60E85A604901C2D7044772AC91776594C209C571DFEDAD4A70195B8",
-              "size": "22874"
+              "archiveFileName": "micronucleus-firmware-2.5.1.tar.gz",
+              "url": "https://github.com/ArminJo/micronucleus-firmware/archive/2.5.1.tar.gz",
+              "checksum": "SHA-256:4f40b7f70bdc0375ed96cf244c05c96eaab2f7cc107ff27656474d3a629ea91d",
+              "size": "2900325"
             }
           ]
         }
